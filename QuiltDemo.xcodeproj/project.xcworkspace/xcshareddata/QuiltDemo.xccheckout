@@ -12,6 +12,8 @@
 	<dict>
 		<key>06AE9A8A-F38E-41A9-879C-38ABFFD8E44D</key>
 		<string>ssh://github.com/bryceredd/RFQuiltLayout.git</string>
+		<key>A1F8F660-1E83-426E-8EB5-26AA299CF75C</key>
+		<string>https://github.com/diejmon/DraggableCollectionView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>QuiltDemo.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>06AE9A8A-F38E-41A9-879C-38ABFFD8E44D</key>
 		<string>../..</string>
+		<key>A1F8F660-1E83-426E-8EB5-26AA299CF75C</key>
+		<string>../../Drag</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/bryceredd/RFQuiltLayout.git</string>
@@ -28,6 +32,14 @@
 	<string>06AE9A8A-F38E-41A9-879C-38ABFFD8E44D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1F8F660-1E83-426E-8EB5-26AA299CF75C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Drag</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0239B55C168BB0F4008B8AD6 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */; };
 		026492D616D3628600992E42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026492D516D3628600992E42 /* CoreGraphics.framework */; };
 		02E25B07168B74B0009CA089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E25B06168B74B0009CA089 /* UIKit.framework */; };
 		02E25B09168B74B0009CA089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E25B08168B74B0009CA089 /* Foundation.framework */; };
@@ -19,11 +18,16 @@
 		02E25B1D168B74B0009CA089 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E25B1C168B74B0009CA089 /* Default-568h@2x.png */; };
 		02E25B20168B74B0009CA089 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E25B1F168B74B0009CA089 /* RFViewController.m */; };
 		02E25B23168B74B0009CA089 /* RFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E25B21168B74B0009CA089 /* RFViewController.xib */; };
+		09F11FD7196C12D6007E6191 /* LSCollectionViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FCB196C12D6007E6191 /* LSCollectionViewHelper.m */; };
+		09F11FD8196C12D6007E6191 /* LSCollectionViewLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FCD196C12D6007E6191 /* LSCollectionViewLayoutHelper.m */; };
+		09F11FD9196C12D6007E6191 /* DraggableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FD0196C12D6007E6191 /* DraggableCollectionViewFlowLayout.m */; };
+		09F11FDA196C12D6007E6191 /* UICollectionView+Draggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FD2196C12D6007E6191 /* UICollectionView+Draggable.m */; };
+		09F11FDB196C12D6007E6191 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FD6196C12D6007E6191 /* RFQuiltLayout.m */; };
+		09F11FE1196C13D6007E6191 /* DSQuiltLayoutDraggable.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F11FE0196C13D6007E6191 /* DSQuiltLayoutDraggable.m */; };
+		09F11FE3196C146E007E6191 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F11FE2196C146E007E6191 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0239B55A168BB0F4008B8AD6 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFQuiltLayout.h; path = RFQuiltLayout/RFQuiltLayout.h; sourceTree = SOURCE_ROOT; };
-		0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFQuiltLayout.m; path = RFQuiltLayout/RFQuiltLayout.m; sourceTree = SOURCE_ROOT; };
 		026492D516D3628600992E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		02E25B02168B74B0009CA089 /* QuiltDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuiltDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E25B06168B74B0009CA089 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -40,6 +44,21 @@
 		02E25B1E168B74B0009CA089 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
 		02E25B1F168B74B0009CA089 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 		02E25B22168B74B0009CA089 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RFViewController.xib; sourceTree = "<group>"; };
+		09F11FCA196C12D6007E6191 /* LSCollectionViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionViewHelper.h; sourceTree = "<group>"; };
+		09F11FCB196C12D6007E6191 /* LSCollectionViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionViewHelper.m; sourceTree = "<group>"; };
+		09F11FCC196C12D6007E6191 /* LSCollectionViewLayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCollectionViewLayoutHelper.h; sourceTree = "<group>"; };
+		09F11FCD196C12D6007E6191 /* LSCollectionViewLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCollectionViewLayoutHelper.m; sourceTree = "<group>"; };
+		09F11FCF196C12D6007E6191 /* DraggableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		09F11FD0196C12D6007E6191 /* DraggableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		09F11FD1196C12D6007E6191 /* UICollectionView+Draggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Draggable.h"; sourceTree = "<group>"; };
+		09F11FD2196C12D6007E6191 /* UICollectionView+Draggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Draggable.m"; sourceTree = "<group>"; };
+		09F11FD3196C12D6007E6191 /* UICollectionViewDataSource_Draggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewDataSource_Draggable.h; sourceTree = "<group>"; };
+		09F11FD4196C12D6007E6191 /* UICollectionViewLayout_Warpable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLayout_Warpable.h; sourceTree = "<group>"; };
+		09F11FD5196C12D6007E6191 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFQuiltLayout.h; path = RFQuiltLayout/RFQuiltLayout.h; sourceTree = SOURCE_ROOT; };
+		09F11FD6196C12D6007E6191 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFQuiltLayout.m; path = RFQuiltLayout/RFQuiltLayout.m; sourceTree = SOURCE_ROOT; };
+		09F11FDF196C13D6007E6191 /* DSQuiltLayoutDraggable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSQuiltLayoutDraggable.h; path = RFQuiltLayout/DSQuiltLayoutDraggable.h; sourceTree = SOURCE_ROOT; };
+		09F11FE0196C13D6007E6191 /* DSQuiltLayoutDraggable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DSQuiltLayoutDraggable.m; path = RFQuiltLayout/DSQuiltLayoutDraggable.m; sourceTree = SOURCE_ROOT; };
+		09F11FE2196C146E007E6191 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F11FE3196C146E007E6191 /* QuartzCore.framework in Frameworks */,
 				026492D616D3628600992E42 /* CoreGraphics.framework in Frameworks */,
 				02E25B07168B74B0009CA089 /* UIKit.framework in Frameworks */,
 				02E25B09168B74B0009CA089 /* Foundation.framework in Frameworks */,
@@ -76,6 +96,7 @@
 		02E25B05168B74B0009CA089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09F11FE2196C146E007E6191 /* QuartzCore.framework */,
 				026492D516D3628600992E42 /* CoreGraphics.framework */,
 				02E25B06168B74B0009CA089 /* UIKit.framework */,
 				02E25B08168B74B0009CA089 /* Foundation.framework */,
@@ -86,13 +107,17 @@
 		02E25B0C168B74B0009CA089 /* QuiltDemo */ = {
 			isa = PBXGroup;
 			children = (
-				02E25B29168B74C9009CA089 /* TVQuiltLayout */,
+				09F11FC8196C12D6007E6191 /* DraggableCollectionView */,
+				09F11FD5196C12D6007E6191 /* RFQuiltLayout.h */,
+				09F11FD6196C12D6007E6191 /* RFQuiltLayout.m */,
 				02E25B15168B74B0009CA089 /* RFAppDelegate.h */,
 				02E25B16168B74B0009CA089 /* RFAppDelegate.m */,
 				02E25B1E168B74B0009CA089 /* RFViewController.h */,
 				02E25B1F168B74B0009CA089 /* RFViewController.m */,
 				02E25B21168B74B0009CA089 /* RFViewController.xib */,
 				02E25B0D168B74B0009CA089 /* Supporting Files */,
+				09F11FDF196C13D6007E6191 /* DSQuiltLayoutDraggable.h */,
+				09F11FE0196C13D6007E6191 /* DSQuiltLayoutDraggable.m */,
 			);
 			path = QuiltDemo;
 			sourceTree = "<group>";
@@ -111,13 +136,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		02E25B29168B74C9009CA089 /* TVQuiltLayout */ = {
+		09F11FC8196C12D6007E6191 /* DraggableCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				0239B55A168BB0F4008B8AD6 /* RFQuiltLayout.h */,
-				0239B55B168BB0F4008B8AD6 /* RFQuiltLayout.m */,
+				09F11FC9196C12D6007E6191 /* Helpers */,
+				09F11FCE196C12D6007E6191 /* Layout */,
+				09F11FD1196C12D6007E6191 /* UICollectionView+Draggable.h */,
+				09F11FD2196C12D6007E6191 /* UICollectionView+Draggable.m */,
+				09F11FD3196C12D6007E6191 /* UICollectionViewDataSource_Draggable.h */,
+				09F11FD4196C12D6007E6191 /* UICollectionViewLayout_Warpable.h */,
 			);
-			name = TVQuiltLayout;
+			name = DraggableCollectionView;
+			path = RFQuiltLayout/DraggableCollectionView/DraggableCollectionView;
+			sourceTree = SOURCE_ROOT;
+		};
+		09F11FC9196C12D6007E6191 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				09F11FCA196C12D6007E6191 /* LSCollectionViewHelper.h */,
+				09F11FCB196C12D6007E6191 /* LSCollectionViewHelper.m */,
+				09F11FCC196C12D6007E6191 /* LSCollectionViewLayoutHelper.h */,
+				09F11FCD196C12D6007E6191 /* LSCollectionViewLayoutHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		09F11FCE196C12D6007E6191 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				09F11FCF196C12D6007E6191 /* DraggableCollectionViewFlowLayout.h */,
+				09F11FD0196C12D6007E6191 /* DraggableCollectionViewFlowLayout.m */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,10 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F11FE1196C13D6007E6191 /* DSQuiltLayoutDraggable.m in Sources */,
+				09F11FD9196C12D6007E6191 /* DraggableCollectionViewFlowLayout.m in Sources */,
 				02E25B13168B74B0009CA089 /* main.m in Sources */,
+				09F11FD7196C12D6007E6191 /* LSCollectionViewHelper.m in Sources */,
 				02E25B17168B74B0009CA089 /* RFAppDelegate.m in Sources */,
 				02E25B20168B74B0009CA089 /* RFViewController.m in Sources */,
-				0239B55C168BB0F4008B8AD6 /* RFQuiltLayout.m in Sources */,
+				09F11FD8196C12D6007E6191 /* LSCollectionViewLayoutHelper.m in Sources */,
+				09F11FDA196C12D6007E6191 /* UICollectionView+Draggable.m in Sources */,
+				09F11FDB196C12D6007E6191 /* RFQuiltLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

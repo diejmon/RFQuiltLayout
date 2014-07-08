@@ -1,0 +1,3 @@
+[submodule "RFQuiltLayout/DraggableCollectionView"]
+	path = RFQuiltLayout/DraggableCollectionView
+	url = https://github.com/diejmon/DraggableCollectionView.git
